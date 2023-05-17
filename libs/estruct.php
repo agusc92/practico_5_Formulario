@@ -1,7 +1,7 @@
 <?php
 
     function mostrar($titulo){
-        require 'smarty/libs/smarty.class.php';
+        // require 'smarty/libs/smarty.class.php';
 
         // $smarty1 = new Smarty();
         // $smarty1->assign('titulo',$titulo);
