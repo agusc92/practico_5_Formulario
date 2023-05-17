@@ -1,7 +1,8 @@
 {* variables:
     {ruta} -> es la ruta a la que se envia el formulario
 *}
-
+{include file="head.tpl"}
+{include file="header.tpl"}
 <form action={$ruta} method="post">
     <div>
         <label for="nombre">introduzca su nombre</label>
@@ -25,3 +26,4 @@
         {include file="error.tpl"}
     {/if}
 </form>
+{include file="footer.tpl"}

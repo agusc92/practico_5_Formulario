@@ -1,5 +1,5 @@
 <header>
     <h1>
-        {$banner}
+        Formuladio de inscripcion
     </h1>
 </header>
